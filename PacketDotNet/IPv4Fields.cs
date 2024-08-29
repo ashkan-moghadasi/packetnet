@@ -81,6 +81,11 @@ namespace PacketDotNet;
         /// </summary>
         public static readonly int AddressLength = 4;
 
+        /// <summary>
+        /// Position of Options field in the IP header
+        /// </summary>
+        public static readonly int OptionsPosition = 20;
+
         static IPv4Fields()
         {
             DifferentiatedServicesPosition = VersionAndHeaderLengthPosition + VersionAndHeaderLengthLength;
