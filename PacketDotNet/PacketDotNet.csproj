@@ -14,11 +14,12 @@
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/dotpcap/packetnet</PackageProjectUrl>
     <PackageTags>packet packets ethernet ip tcp udp icmp network</PackageTags>
-    <PackageVersion>$(Version)</PackageVersion>
+    <PackageVersion>1.4.8</PackageVersion>
     <Pack>true</Pack>
     <RepositoryUrl>https://github.com/dotpcap/packetnet</RepositoryUrl>
     <LangVersion>latest</LangVersion>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Version>1.4.8</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
